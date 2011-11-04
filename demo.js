@@ -24,8 +24,8 @@ $(function() {
                         '<strong>nav</strong> - an array of objects, each of which has a <em>url</em>, a <em>text</em>, and (optionally) a <em>blank</em>, each of which represents a navigation items',
                         '<strong>content</strong> - any item that can be passed to <em>jQuery.append</em> or an array of such items, these represent the main content of the page',
                         '<strong>footer</strong> - any item that can be passed to <em>jQuery.append</em> and represents the footer of the page'
-                    ]);
-                ]
+                    ])
+				]
             }).makePage({
                 subsubtitle: 'Utitlities',
                 content: [
@@ -34,9 +34,9 @@ $(function() {
                         '<strong>link(url, text, blank)</strong> - Creates an anchor tag with href=<em>url</em>, a text value of <em>text</em> and, if <em>blank</em> is true, target=&quot;_blank&quot;',
                         '<strong>list(items, klass)</strong> - Creates an unordered list out of the items in array <em>items</em>, and the list optionally has className = <em>klass</em>',
                         '<strong>paragraph(content, klass)</strong> - Creates a paragraph with the given content appended to it, and (optionally) <em>klass</em> as a <em>className</em>'                        
-                    ]);
+                    ])
                 ]
-            });
+            })
     };
     
     var href = window.location.href,
