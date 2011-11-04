@@ -1,6 +1,6 @@
 $(function() {
     var content = {
-        'index.html': $('<div>').makePage({
+        'index.html': $('<div>', {'class': 'index'}).makePage({
                 subsubtitle: 'Download It!',
                 content: $.makePage.list([
                     $.makePage.link('jquery.makepage.js', 'Unminified source'),
@@ -13,7 +13,7 @@ $(function() {
                 subsubtitle: 'Use It!',
                 content: $.makePage.paragraph('$("body").makePage({title: "jQuery.makePage", nav: [{url: "index.html", text: "Home"}, {url: "about.html", text: "About"}], content: "Check out my sweet new page I made with makePage!", footer: "Copyright me, Inc. 2011"});', 'code')
             }),
-        'options.html': $('<div>').makePage({
+        'options.html': $('<div>', {'class': 'options'}).makePage({
                 subsubtitle: 'Options',
                 content: [
                     $.makePage.paragraph('There aren\'t actually that many options for makePage. Here\'s the full list'),
@@ -33,7 +33,7 @@ $(function() {
                     $.makePage.list([
                         '<strong>link(url, text, blank)</strong> - Creates an anchor tag with href=<em>url</em>, a text value of <em>text</em> and, if <em>blank</em> is true, target=&quot;_blank&quot;',
                         '<strong>list(items, klass)</strong> - Creates an unordered list out of the items in array <em>items</em>, and the list optionally has className = <em>klass</em>',
-                        '<strong>paragraph(content, klass)</strong> - Creates a paragraph with the given content appended to it, and (optionally) <em>klass</em> as a <em>className</em>'                        
+                        '<strong>paragraph(content, klass)</strong> - Creates a paragraph with the given content appended to it, and (optionally) className = <em>klass</em>'
                     ])
                 ]
             })

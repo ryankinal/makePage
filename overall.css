@@ -91,17 +91,23 @@ h3
 
 .second .container
 {
-    float: left;
-    width: 290px;
-    margin: 0 10px 15px 10px;
+	width: 900px;
+    margin: 0 10px 15px 30px;
     background-color: #F3DC6C;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -o-border-radius: 7px;
     border-radius: 7px;
     padding: 10px;
-    height: 250px;
     box-shadow: 0 3px 5px #666;
+}
+
+.second .index .container
+{
+	height: 250px;
+	float: left;
+    width: 290px;
+    margin-left: 10px;
 }
 
 .footer
