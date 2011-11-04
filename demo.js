@@ -51,7 +51,7 @@ $(function() {
             {url: 'options.html', text: 'Options'},
             {url: 'nohtml.html', text: 'NoHTML'},
             {url: 'http://jquery.com', text: 'jQuery', blank: true},
-            {url: 'http://cowbell.js', text: 'Cowbell', blank: true}
+            {url: 'http://cowbelljs.com', text: 'Cowbell', blank: true}
         ],
         content: content[page],
         footer: 'Use this plugin for whatever you want, however you want. But don\'t use this plugin.'
