@@ -1,0 +1,8 @@
+jQuery.makePage is a simple plugin that replaces the need to write any HTML that isn't referencing outside files. All you need is the basic skeleton of an HTML page, jQuery, makePage, and some CSS, and you're off and running.
+
+Download the source and take a look!
+
+TODO:
+* Add other pages
+* Add dropdown/slideout menu functionality
+* Add more utility functions
