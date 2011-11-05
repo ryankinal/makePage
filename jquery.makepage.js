@@ -73,6 +73,11 @@
                 $li,
                 i;
                 
+			if (args['class'])
+			{
+				$container.addClass(args['class']);
+			}
+                
             if (args.title || args.subtitle || args.subsubtitle)
             {
                 $header = $('<div>', {'class': 'header'});
