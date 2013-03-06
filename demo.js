@@ -18,7 +18,7 @@ $(function() {
                 content: [
                     $.makePage.paragraph('There aren\'t actually that many options for makePage. Here\'s the full list'),
                     $.makePage.list([
-						'<strong>class</strong> - a classname to be added to the new container
+			'<strong>class</strong> - a classname to be added to the new container',
                         '<strong>title</strong> - the text of the h1 tag for this page',
                         '<strong>subtitle</strong> - the text of the h2 tag for this page',
                         '<strong>subsubtitle</strong> - the text of the h3 tag for this page',
